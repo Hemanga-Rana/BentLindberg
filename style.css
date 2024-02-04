@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+    font-weight: 600;
+}
+*::-webkit-scrollbar{
+    background-color: transparent;
+    width: 10px;
+}
+*::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+}
+#nav h3{
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    margin-left: 5px;
+    border-radius: 50px;
+    font-size: 22px;
+}
+#intro{
+    height: 45%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 55px 60px;
+}
+#intro h1{
+    font-size: 145px;
+    letter-spacing: 5px;
+    line-height: 133px;
+}
+#place{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+#place h3, #place h4{
+    font-size: 30px;
+}
+#hero-image{
+    width: 100%;
+    height: 87%;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1614574762522-6ac2fbba2208?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+#about{
+    height: 45%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+}
+#about h2{
+    /* background-color: blue; */
+    width: 60%;
+    font-size: 85px;
+    font-weight: 600;
+    line-height: 83px;
+}
+#about-part2{
+    width: 36%;
+    height: 100%;
+    border-left: 2px solid black;
+    padding: 0px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#about-part2 h3{
+    font-size: 25px;
+}
+#icons i{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: 300;
+    font-size: 20px;
+    margin-right: 10px;
+}
+#todo{
+    width: 100%;
+    height: 50%;
+    padding: 0px 60px;
+    display: flex;
+}
+#left{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    /* background-color: red; */
+    display: flex;
+    width: 30%;
+    padding: 60px 60px 60px 0px;
+    justify-content: space-between;
+}
+#left h3, i{
+    font-size: 25px;
+    font-weight: 500;
+}
+#right{
+    width: 70%;
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#right h2{
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+#right p{
+    font-size: 20px;
+    font-weight: 500;
+}
+#rightup{
+    display: flex;
+    height: 50%;
+    padding-left: 70px;
+    /* background-color: red; */
+    border-left: 2px solid black;
+}
+#rightup .one{
+    width: 50%;
+}
+#rightup .two{
+    width: 50%;
+    padding-left: 70px;
+    height: fit-content;
+    border-left: 2px solid black;
+}
+#rightdown{
+    height: 50%;
+    padding-left: 69px;
+    border-left: 2px solid black;
+}
+#rightdown #rdd{
+    display: flex;
+    height: 100%;
+    align-items: end;
+    border-top: 2px solid black;
+}
+#rightdown #rdd .one{
+    width: 50%;
+}
+#rightdown #rdd .two{
+    width: 50%;
+    padding-left: 70px;
+    height: fit-content;
+    border-left: 2px solid black;
+}
+#work{
+    padding: 40px 50px;
+    font-size: 70px;
+}
+#work {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  #work h1 {
+    display: inline-block;
+    animation: runWork 20s linear infinite; /* Adjust the duration (5s in this example) as needed */
+  }
+
+  @keyframes runWork {
+    from {
+      transform: translateX(100%); /* Start off-screen to the left */
+    }
+    to {
+      transform: translateX(-100%); /* Move off-screen to the right */
+    }
+  }
+#hero-image2{
+    width: 100%;
+    height: 87%;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1611040718533-c59305e8f9fe?q=80&w=2019&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
